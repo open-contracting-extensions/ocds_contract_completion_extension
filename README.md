@@ -18,14 +18,14 @@ The fields introduced by this extension are:
 
 ## Using existing OCDS fields within a Contracts Register
 
-OCDS contains many existing fields that can be used as part of a Contracts Register, including:
+OCDS contains many existing fields that can be used as part of a Contracts Register. These are documented [in the schema reference](http://standard.open-contracting.org/latest/en/schema/reference/). This extension does not modify any of these fields. However, the following list is provided for convenience of those considering the design of a contracts register:
 
-* **Supplier details** which should be recorded within the `awards` section, linked via `contracts/awardID` (even if you are only releasing information at the contract stage, you may provide information in the tender and award sections)
-* **Contract documents** which can be linked to under `contract/documents`
-* **Performance reports** which can be provided under `contract/implementation/documents`
-* **Details of payments** which can be provided under `contract/implementation/transactions`
-* **Progress details** which can be provided using `contract/implementation/milestones`. 
-* **Amendments** which can be described using the `contact/amendments` array, and with past values provided using the OCDS [releases model as described here](http://standard.open-contracting.org/latest/en/implementation/amendments/) 
+* **Supplier details**  should be recorded within the `awards` section, linked via `contracts/awardID` (even if you are only releasing information at the contract stage, you may provide information in the tender and award sections)
+* **Contract documents** can be linked to under `contract/documents`
+* **Performance reports** can be provided under `contract/implementation/documents`
+* **Details of payments** can be provided under `contract/implementation/transactions`
+* **Progress details** can be provided using `contract/implementation/milestones`. 
+* **Amendments** can be described using the `contact/amendments` array, and with past values provided using the OCDS [releases model as described here](http://standard.open-contracting.org/latest/en/implementation/amendments/) 
 
 ### Using milestones to show contract completion 
 
