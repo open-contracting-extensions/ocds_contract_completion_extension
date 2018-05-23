@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "ocds_contractRegister_extension"
+  },
+  "description": {
+    "en": "Adds fields to the contract implementation section to detail the end date, and final value of a contract."
+  },
+  "documentationUrl": {
+    "en": ""
+  }
+}
