@@ -37,7 +37,59 @@ In some cases, it may be possible to design a simple contracts register using th
 
 ## Example 
 
-ToDo
+The following extract illustrates these properties in use within the `contract/implementation` block. Note the difference between the contract `period` and `value` (as agreed in the contract, or amended contract), and the implementation `finalValue` and `endDate` - along with the explanation provided of this variance.
+
+```json
+{
+      "ocid": "ocds-213czf-000-00001",
+      "id": "ocds-213czf-000-00001-07-close",
+      "date": "2012-01-10T09:30:00Z",
+      "initiationType": "tender",
+      "tag": [
+        "implementation"
+      ],
+      "parties": ["..."],
+      "buyer": {
+        "id": "GB-LAC-E09000003",
+      },
+      "awards": ["..."],
+      "contracts": [
+        {
+          "id": "ocds-213czf-000-00001-contract-01",
+          "awardID": "ocds-213czf-000-00001-award-01",
+          "title": "Contract to build new cycle lanes in the centre of town.",
+          "period": {
+            "startDate": "2010-07-01T00:00:00Z",
+            "endDate": "2012-01-01T23:59:00Z",
+            "maxExtentDate": "2012-01-31T23:59:00Z"
+          },
+          "value": {
+            "amount": 11500000,
+            "currency": "GBP"
+          },
+          "implementation": {
+            "endDate":"2012-02-01T00:00:00Z",
+            "endDateDetails":"Project was completed one day beyond the extended deadline.",
+            "finalValue": {
+              "amount":11800000,
+              "currency":"GBP"
+            },
+            "finalValueDetails":"The final payment to the supplier included a compensation payment triggered by the local authority failure to provide work permits on schedule."            
+          }
+        }
+      ]
+}
+```
+
+The example folder contains a full worked example with:
+
+* A release that provides details of a contract;
+* A release that includes an amendment to the contract to increase the total value, as well as initial payment transactions;
+* A release that contains a confirmed end date, final value, and the explanation of variation in these. 
+
+This is also supplied in record form, and with a simplified flat serialisation. The record can be viewed with [OCDS Show](https://open-contracting.github.io/ocds-show/) to demonstrate how the OCDS releases and records model captures change over time. 
+
+In the spreadsheet serialization it is possible to see three releases describing the three key moments from the same contracting process. 
 
 ## Issues
 
