@@ -37,7 +37,7 @@ In some cases, it may be possible to design a simple contracts register using th
 
 ## Example 
 
-The following extract illustrates these properties in use within the `contract/implementation` block. Note the difference between the contract `period` and `value` (as agreed in the contract, or amended contract), and the implementation `finalValue` and `endDate` - along with the explanation provided of this variance.
+The following extract illustrates these properties in use within the `contract/implementation` block. Note the difference between the contract `period` and `value` (as agreed in the contract, or amended contract), and the implementation `finalValue` and `endDate`, along with the explanation provided of this variance.
 
 ```json
 {
