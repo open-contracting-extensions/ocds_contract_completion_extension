@@ -1,7 +1,9 @@
 {
   "version": "1.1",
   "uri": "https://github.com/open-contracting/sample-data/raw/1.1/fictional-example/ocds-213czf-000-00001-06-implementation.json",
-  "extensions":["https://raw.githubusercontent.com/open-contracting-extensions/ocds_contractRegister_extension/master/extension.json"],
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contractRegister_extension/master/extension.json"
+  ],
   "publishedDate": "2012-10-10T09:30:00Z",
   "publisher": {
     "name": "Open Data Services Co-operative Limited",
@@ -335,14 +337,16 @@
               ]
             }
           ],
-          "amendments":[{
-            "id":"1",
-            "date":"2011-01-10T09:30:00Z",
-            "amendsReleaseID":"ocds-213czf-000-00001-05-contract",
-            "releaseID":"ocds-213czf-000-00001-06-implementation",
-            "rationale":"Contractor requested more time to complete project and additional costs in response to survey of existing road quality.",
-            "description":"The deadline for completion was extended by six months, and the total budget increased by £500,000."
-          }],
+          "amendments": [
+            {
+              "id": "1",
+              "date": "2011-01-10T09:30:00Z",
+              "amendsReleaseID": "ocds-213czf-000-00001-05-contract",
+              "releaseID": "ocds-213czf-000-00001-06-implementation",
+              "rationale": "Contractor requested more time to complete project and additional costs in response to survey of existing road quality.",
+              "description": "The deadline for completion was extended by six months, and the total budget increased by \u00a3500,000."
+            }
+          ],
           "implementation": {
             "transactions": [
               {
@@ -553,13 +557,13 @@
             }
           ],
           "implementation": {
-            "endDate":"2012-02-01T00:00:00Z",
-            "endDateDetails":"Project was completed one day beyond the extended deadline.",
+            "endDate": "2012-02-01T00:00:00Z",
+            "endDateDetails": "Project was completed one day beyond the extended deadline.",
             "finalValue": {
-              "amount":11800000,
-              "currency":"GBP"
+              "amount": 11800000,
+              "currency": "GBP"
             },
-            "finalValueDetails":"The final payment to the supplier included a compensation payment triggered by the local authority failure to provide work permits on schedule.",
+            "finalValueDetails": "The final payment to the supplier included a compensation payment triggered by the local authority failure to provide work permits on schedule.",
             "transactions": [
               {
                 "id": "ocds-213czf-000-00001-1",
