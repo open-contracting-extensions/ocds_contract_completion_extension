@@ -50,7 +50,7 @@ The following extract illustrates these properties in use within the `contract/i
       ],
       "parties": ["..."],
       "buyer": {
-        "id": "GB-LAC-E09000003",
+        "id": "GB-LAC-E09000003"
       },
       "awards": ["..."],
       "contracts": [
