@@ -93,6 +93,8 @@ In the spreadsheet serialization it is possible to see three releases describing
 
 ## Issues
 
-The creation of this extension was discussed in https://github.com/open-contracting/standard/issues/703
-
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+This extension was first discussed in <https://github.com/open-contracting/standard/issues/703>.
