@@ -1,4 +1,4 @@
-# Contracts Register Extension
+# Contracts Completion
 
 The Open Contracting Data Standard can be used to provide information on all stages of a contracting process, from planning through to implementation.
 

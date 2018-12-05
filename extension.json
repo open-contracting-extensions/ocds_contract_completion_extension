@@ -1,12 +1,12 @@
 {
   "name": {
-    "en": "ocds_contractRegister_extension"
+    "en": "Contract Completion"
   },
   "description": {
     "en": "Adds fields to the contract implementation section to detail the end date, and final value of a contract."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_contractRegister_extension"
+    "en": "https://github.com/open-contracting-extensions/ocds_contract_completion_extension"
   },
   "compatibility": [
     "1.1"
