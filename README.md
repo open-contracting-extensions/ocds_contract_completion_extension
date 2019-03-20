@@ -87,7 +87,7 @@ The example folder contains a full worked example with:
 * A release that includes an amendment to the contract to increase the total value, as well as initial payment transactions;
 * A release that contains a confirmed end date, final value, and the explanation of variation in these. 
 
-This is also supplied in record form, and with a simplified flat serialisation. The record can be viewed with [OCDS Show](https://open-contracting.github.io/ocds-show/) to demonstrate how the OCDS releases and records model captures change over time. 
+This is also supplied in record form, and with a simplified flat serialization. The record can be viewed with [OCDS Show](https://open-contracting.github.io/ocds-show/) to demonstrate how the OCDS releases and records model captures change over time. 
 
 In the spreadsheet serialization it is possible to see three releases describing the three key moments from the same contracting process. 
 
