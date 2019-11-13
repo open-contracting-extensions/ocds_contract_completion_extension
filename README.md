@@ -41,26 +41,10 @@ The following extract illustrates these properties in use within the `contract/i
 
 ```json
 {
-  "ocid": "ocds-213czf-000-00001",
-  "id": "ocds-213czf-000-00001-07-close",
-  "date": "2012-01-10T09:30:00Z",
-  "initiationType": "tender",
-  "tag": [
-    "implementation"
-  ],
-  "parties": [
-    "..."
-  ],
-  "buyer": {
-    "id": "GB-LAC-E09000003"
-  },
-  "awards": [
-    "..."
-  ],
   "contracts": [
     {
-      "id": "ocds-213czf-000-00001-contract-01",
-      "awardID": "ocds-213czf-000-00001-award-01",
+      "id": "1",
+      "awardID": "1",
       "title": "Contract to build new cycle lanes in the centre of town.",
       "period": {
         "startDate": "2010-07-01T00:00:00Z",
