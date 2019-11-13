@@ -37,7 +37,7 @@
                 "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
                 "documentType": "awardNotice",
                 "format": "text/html",
-                "id": "7.0",
+                "id": "7",
                 "language": "en",
                 "title": "Award notice",
                 "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html"
@@ -56,12 +56,12 @@
                 ],
                 "classification": {
                   "description": "Construction work for highways",
-                  "id": "45233130.0",
+                  "id": "45233130",
                   "scheme": "CPV",
                   "uri": "http://cpv.data.ac.uk/code-45233130"
                 },
                 "description": "Cycle lane improvements",
-                "id": "1.0",
+                "id": "1",
                 "quantity": 8,
                 "unit": {
                   "id": "SMI",
@@ -113,7 +113,7 @@
                 "description": "The Signed Contract for Cycle Path Construction",
                 "documentType": "contractSigned",
                 "format": "application/pdf",
-                "id": "8.0",
+                "id": "8",
                 "language": "en",
                 "title": "Signed Contract",
                 "url": "http://example.com/contracts/ocds-213czf-000-00001"
@@ -127,7 +127,7 @@
                   "description": "Physical progress report for cycle path construction",
                   "documentType": "physicalProgressReport",
                   "format": "application/pdf",
-                  "id": "9.0",
+                  "id": "9",
                   "language": "en",
                   "title": "Progress report",
                   "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-01.pdf"
@@ -137,7 +137,7 @@
                   "description": "Physical progress report on completion of cycle path construction.",
                   "documentType": "physicalProgressReport",
                   "format": "application/pdf",
-                  "id": "10.0",
+                  "id": "10",
                   "language": "en",
                   "title": "Final report",
                   "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-02.pdf"
@@ -273,12 +273,12 @@
                 ],
                 "classification": {
                   "description": "Construction work for highways",
-                  "id": "45233130.0",
+                  "id": "45233130",
                   "scheme": "CPV",
                   "uri": "http://cpv.data.ac.uk/code-45233130"
                 },
                 "description": "Cycle lane improvements",
-                "id": "1.0",
+                "id": "1",
                 "quantity": 8,
                 "unit": {
                   "id": "SMI",
@@ -355,7 +355,7 @@
             },
             "id": "GB-COH-11111111",
             "identifier": {
-              "id": "11111111.0",
+              "id": "11111111",
               "legalName": "AnyCorp Ltd",
               "scheme": "GB-COH"
             },
@@ -381,7 +381,7 @@
             },
             "id": "GB-COH-22222222",
             "identifier": {
-              "id": "22222222.0",
+              "id": "22222222",
               "legalName": "Beta Corp Ltd",
               "scheme": "GB-COH"
             },
@@ -409,7 +409,7 @@
               "description": "The overall strategic framework for procurement to enhance cycle provision.",
               "documentType": "procurementPlan",
               "format": "application/pdf",
-              "id": "1.0",
+              "id": "1",
               "language": "en",
               "title": "Area Wide Cycle Improvements - Procurement Plan",
               "url": "http://example.com/opencontracting/documents/planning/highways/procurementPlan.pdf"
@@ -419,7 +419,7 @@
               "description": "Needs assessment for provision for cyclists in the centre of town.",
               "documentType": "needsAssessment",
               "format": "application/pdf",
-              "id": "2.0",
+              "id": "2",
               "language": "en",
               "title": "Cycle provision - Needs Assessment",
               "url": "http://example.com/opencontracting/documents/ocds-213czf-000-00001/needsAssessment.pdf"
@@ -430,7 +430,7 @@
               "dateMet": "2009-03-14T17:00:00Z",
               "description": "Approval of the strategic outline procurement plan by the procurement steering group",
               "dueDate": "2009-03-14T17:00:00Z",
-              "id": "1.0",
+              "id": "1",
               "status": "met",
               "title": "Strategic outline procurement plan approval",
               "type": "preProcurement"
@@ -438,7 +438,7 @@
             {
               "description": "A public consultation on the proposed cycle lane will be held at the council offices",
               "dueDate": "2009-05-01T09:00:00Z",
-              "id": "2.0",
+              "id": "2",
               "status": "scheduled",
               "title": "Public consultation",
               "type": "engagement"
@@ -455,7 +455,7 @@
               "amendsReleaseID": "ocds-213czf-000-00001-02-tender",
               "date": "2010-03-20T09:45:00Z",
               "description": "The closing date for tender submissions has been extended to 2017-04-08",
-              "id": "1.0",
+              "id": "1",
               "rationale": "The tender period has been extended in accordance with council guidelines",
               "releaseID": "ocds-213czf-000-00001-03-tenderAmendment"
             },
@@ -486,7 +486,7 @@
               "description": "A consultation document inviting citizen input into cycle provision.",
               "documentType": "x_consultationDocument",
               "format": "text/html",
-              "id": "3.0",
+              "id": "3",
               "language": "en",
               "title": "Consultation on cycle provision",
               "url": "http://example.com/consultations/cycle-provision/"
@@ -496,7 +496,7 @@
               "description": "A map showing areas affected by the planned highway updates. Available from local libraries.",
               "documentType": "x_map",
               "format": "offline/print",
-              "id": "4.0",
+              "id": "4",
               "language": "en",
               "title": "Map of affected areas"
             },
@@ -505,7 +505,7 @@
               "description": "Official tender notice.",
               "documentType": "tenderNotice",
               "format": "text/html",
-              "id": "5.0",
+              "id": "5",
               "language": "en",
               "title": "Tender Notice",
               "url": "http://example.com/tender-notices/ocds-213czf-000-00001-01.html"
@@ -515,7 +515,7 @@
               "description": "Responses to enquiries asked by interested parties.",
               "documentType": "clarifications",
               "format": "text/html",
-              "id": "6.0",
+              "id": "6",
               "language": "en",
               "title": "Enquiry Responses",
               "url": "http://example.com/enquiry-response/ocds-213czf-000-00001-01.html"
@@ -560,12 +560,12 @@
               ],
               "classification": {
                 "description": "Construction work for highways",
-                "id": "45233130.0",
+                "id": "45233130",
                 "scheme": "CPV",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
               "description": "Cycle lane improvements",
-              "id": "1.0",
+              "id": "1",
               "quantity": 8,
               "unit": {
                 "id": "SMI",
@@ -702,7 +702,7 @@
                 "description": "The overall strategic framework for procurement to enhance cycle provision.",
                 "documentType": "procurementPlan",
                 "format": "application/pdf",
-                "id": "1.0",
+                "id": "1",
                 "language": "en",
                 "title": "Area Wide Cycle Improvements - Procurement Plan",
                 "url": "http://example.com/opencontracting/documents/planning/highways/procurementPlan.pdf"
@@ -712,7 +712,7 @@
                 "description": "Needs assessment for provision for cyclists in the centre of town.",
                 "documentType": "needsAssessment",
                 "format": "application/pdf",
-                "id": "2.0",
+                "id": "2",
                 "language": "en",
                 "title": "Cycle provision - Needs Assessment",
                 "url": "http://example.com/opencontracting/documents/ocds-213czf-000-00001/needsAssessment.pdf"
@@ -723,7 +723,7 @@
                 "dateMet": "2009-03-14T17:00:00Z",
                 "description": "Approval of the strategic outline procurement plan by the procurement steering group",
                 "dueDate": "2009-03-14T17:00:00Z",
-                "id": "1.0",
+                "id": "1",
                 "status": "met",
                 "title": "Strategic outline procurement plan approval",
                 "type": "preProcurement"
@@ -731,7 +731,7 @@
               {
                 "description": "A public consultation on the proposed cycle lane will be held at the council offices",
                 "dueDate": "2009-05-01T09:00:00Z",
-                "id": "2.0",
+                "id": "2",
                 "status": "scheduled",
                 "title": "Public consultation",
                 "type": "engagement"
@@ -757,7 +757,7 @@
                 "description": "A consultation document inviting citizen input into cycle provision.",
                 "documentType": "x_consultationDocument",
                 "format": "text/html",
-                "id": "3.0",
+                "id": "3",
                 "language": "en",
                 "title": "Consultation on cycle provision",
                 "url": "http://example.com/consultations/cycle-provision/"
@@ -767,7 +767,7 @@
                 "description": "A map showing areas affected by the planned highway updates. Available from local libraries.",
                 "documentType": "x_map",
                 "format": "offline/print",
-                "id": "4.0",
+                "id": "4",
                 "language": "en",
                 "title": "Map of affected areas"
               }
@@ -788,12 +788,12 @@
                 ],
                 "classification": {
                   "description": "Construction work for highways",
-                  "id": "45233130.0",
+                  "id": "45233130",
                   "scheme": "CPV",
                   "uri": "http://cpv.data.ac.uk/code-45233130"
                 },
                 "description": "Cycle lane improvements",
-                "id": "1.0",
+                "id": "1",
                 "quantity": 10,
                 "unit": {
                   "id": "SMI",
@@ -890,7 +890,7 @@
                 "description": "Official tender notice.",
                 "documentType": "tenderNotice",
                 "format": "text/html",
-                "id": "5.0",
+                "id": "5",
                 "language": "en",
                 "title": "Tender Notice",
                 "url": "http://example.com/tender-notices/ocds-213czf-000-00001-01.html"
@@ -915,12 +915,12 @@
                 ],
                 "classification": {
                   "description": "Construction work for highways",
-                  "id": "45233130.0",
+                  "id": "45233130",
                   "scheme": "CPV",
                   "uri": "http://cpv.data.ac.uk/code-45233130"
                 },
                 "description": "Cycle lane improvements",
-                "id": "1.0",
+                "id": "1",
                 "quantity": 8,
                 "unit": {
                   "id": "SMI",
@@ -1009,7 +1009,7 @@
                 "amendsReleaseID": "ocds-213czf-000-00001-02-tender",
                 "date": "2010-03-20T09:45:00Z",
                 "description": "The closing date for tender submissions has been extended to 2017-04-08",
-                "id": "1.0",
+                "id": "1",
                 "rationale": "The tender period has been extended in accordance with council guidelines",
                 "releaseID": "ocds-213czf-000-00001-03-tenderAmendment"
               }
@@ -1032,7 +1032,7 @@
                 "description": "Official tender notice.",
                 "documentType": "tenderNotice",
                 "format": "text/html",
-                "id": "5.0",
+                "id": "5",
                 "language": "en",
                 "title": "Tender Notice",
                 "url": "http://example.com/tender-notices/ocds-213czf-000-00001-01.html"
@@ -1042,7 +1042,7 @@
                 "description": "Responses to enquiries asked by interested parties.",
                 "documentType": "clarifications",
                 "format": "text/html",
-                "id": "6.0",
+                "id": "6",
                 "language": "en",
                 "title": "Enquiry Responses",
                 "url": "http://example.com/enquiry-response/ocds-213czf-000-00001-01.html"
@@ -1067,12 +1067,12 @@
                 ],
                 "classification": {
                   "description": "Construction work for highways",
-                  "id": "45233130.0",
+                  "id": "45233130",
                   "scheme": "CPV",
                   "uri": "http://cpv.data.ac.uk/code-45233130"
                 },
                 "description": "Cycle lane improvements",
-                "id": "1.0",
+                "id": "1",
                 "quantity": 8,
                 "unit": {
                   "id": "SMI",
@@ -1273,7 +1273,7 @@
                   "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
                   "documentType": "awardNotice",
                   "format": "text/html",
-                  "id": "7.0",
+                  "id": "7",
                   "language": "en",
                   "title": "Award notice",
                   "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html"
@@ -1292,12 +1292,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1377,7 +1377,7 @@
               },
               "id": "GB-COH-11111111",
               "identifier": {
-                "id": "11111111.0",
+                "id": "11111111",
                 "legalName": "AnyCorp Ltd",
                 "scheme": "GB-COH"
               },
@@ -1403,7 +1403,7 @@
               },
               "id": "GB-COH-22222222",
               "identifier": {
-                "id": "22222222.0",
+                "id": "22222222",
                 "legalName": "Beta Corp Ltd",
                 "scheme": "GB-COH"
               },
@@ -1452,7 +1452,7 @@
                   "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
                   "documentType": "awardNotice",
                   "format": "text/html",
-                  "id": "7.0",
+                  "id": "7",
                   "language": "en",
                   "title": "Award notice",
                   "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html"
@@ -1471,12 +1471,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1518,7 +1518,7 @@
                   "description": "The Signed Contract for Cycle Path Construction",
                   "documentType": "contractSigned",
                   "format": "application/pdf",
-                  "id": "8.0",
+                  "id": "8",
                   "language": "en",
                   "title": "Signed Contract",
                   "url": "http://example.com/contracts/ocds-213czf-000-00001"
@@ -1537,12 +1537,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1621,7 +1621,7 @@
                   "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
                   "documentType": "awardNotice",
                   "format": "text/html",
-                  "id": "7.0",
+                  "id": "7",
                   "language": "en",
                   "title": "Award notice",
                   "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html"
@@ -1640,12 +1640,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1699,7 +1699,7 @@
                     "description": "Physical progress report for cycle path construction",
                     "documentType": "physicalProgressReport",
                     "format": "application/pdf",
-                    "id": "9.0",
+                    "id": "9",
                     "language": "en",
                     "title": "Progress report",
                     "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-01.pdf"
@@ -1756,12 +1756,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1840,7 +1840,7 @@
                   "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
                   "documentType": "awardNotice",
                   "format": "text/html",
-                  "id": "7.0",
+                  "id": "7",
                   "language": "en",
                   "title": "Award notice",
                   "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html"
@@ -1859,12 +1859,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -1908,7 +1908,7 @@
                     "description": "Physical progress report for cycle path construction",
                     "documentType": "physicalProgressReport",
                     "format": "application/pdf",
-                    "id": "9.0",
+                    "id": "9",
                     "language": "en",
                     "title": "Progress report",
                     "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-01.pdf"
@@ -1918,7 +1918,7 @@
                     "description": "Physical progress report on completion of cycle path construction.",
                     "documentType": "physicalProgressReport",
                     "format": "application/pdf",
-                    "id": "10.0",
+                    "id": "10",
                     "language": "en",
                     "title": "Final report",
                     "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-02.pdf"
@@ -2054,12 +2054,12 @@
                   ],
                   "classification": {
                     "description": "Construction work for highways",
-                    "id": "45233130.0",
+                    "id": "45233130",
                     "scheme": "CPV",
                     "uri": "http://cpv.data.ac.uk/code-45233130"
                   },
                   "description": "Cycle lane improvements",
-                  "id": "1.0",
+                  "id": "1",
                   "quantity": 8,
                   "unit": {
                     "id": "SMI",
@@ -2236,7 +2236,7 @@
                     "value": "text/html"
                   }
                 ],
-                "id": "7.0",
+                "id": "7",
                 "language": [
                   {
                     "releaseDate": "2010-05-10T09:30:00Z",
@@ -2341,7 +2341,7 @@
                     "value": "Cycle lane improvements"
                   }
                 ],
-                "id": "1.0",
+                "id": "1",
                 "quantity": [
                   {
                     "releaseDate": "2010-05-10T09:30:00Z",
@@ -2626,7 +2626,7 @@
                     "value": "application/pdf"
                   }
                 ],
-                "id": "8.0",
+                "id": "8",
                 "language": [
                   {
                     "releaseDate": "2010-05-10T10:30:00Z",
@@ -2703,7 +2703,7 @@
                       "value": "application/pdf"
                     }
                   ],
-                  "id": "9.0",
+                  "id": "9",
                   "language": [
                     {
                       "releaseDate": "2011-01-10T09:30:00Z",
@@ -2776,7 +2776,7 @@
                       "value": "application/pdf"
                     }
                   ],
-                  "id": "10.0",
+                  "id": "10",
                   "language": [
                     {
                       "releaseDate": "2012-01-10T09:30:00Z",
@@ -3529,7 +3529,7 @@
                     "value": "Cycle lane improvements"
                   }
                 ],
-                "id": "1.0",
+                "id": "1",
                 "quantity": [
                   {
                     "releaseDate": "2010-05-10T10:30:00Z",
@@ -4355,7 +4355,7 @@
                   "value": "application/pdf"
                 }
               ],
-              "id": "1.0",
+              "id": "1",
               "language": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -4428,7 +4428,7 @@
                   "value": "application/pdf"
                 }
               ],
-              "id": "2.0",
+              "id": "2",
               "language": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -4493,7 +4493,7 @@
                   "value": "2009-03-14T17:00:00Z"
                 }
               ],
-              "id": "1.0",
+              "id": "1",
               "status": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -4546,7 +4546,7 @@
                   "value": "2009-05-01T09:00:00Z"
                 }
               ],
-              "id": "2.0",
+              "id": "2",
               "status": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -4623,7 +4623,7 @@
                   "value": "The closing date for tender submissions has been extended to 2017-04-08"
                 }
               ],
-              "id": "1.0",
+              "id": "1",
               "rationale": [
                 {
                   "releaseDate": "2010-03-20T09:45:00Z",
@@ -4865,7 +4865,7 @@
                   "value": "text/html"
                 }
               ],
-              "id": "3.0",
+              "id": "3",
               "language": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -4938,7 +4938,7 @@
                   "value": "offline/print"
                 }
               ],
-              "id": "4.0",
+              "id": "4",
               "language": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",
@@ -5001,7 +5001,7 @@
                   "value": "text/html"
                 }
               ],
-              "id": "5.0",
+              "id": "5",
               "language": [
                 {
                   "releaseDate": "2010-03-15T09:30:00Z",
@@ -5074,7 +5074,7 @@
                   "value": "text/html"
                 }
               ],
-              "id": "6.0",
+              "id": "6",
               "language": [
                 {
                   "releaseDate": "2010-03-20T09:45:00Z",
@@ -5392,7 +5392,7 @@
                   "value": "Cycle lane improvements"
                 }
               ],
-              "id": "1.0",
+              "id": "1",
               "quantity": [
                 {
                   "releaseDate": "2009-03-15T14:45:00Z",

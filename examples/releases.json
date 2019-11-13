@@ -79,11 +79,11 @@
           },
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -109,7 +109,7 @@
           ],
           "documents": [
             {
-              "id": "7.0",
+              "id": "7",
               "documentType": "awardNotice",
               "title": "Award notice",
               "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
@@ -140,11 +140,11 @@
           "dateSigned": "2010-06-10T14:23:12Z",
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -170,7 +170,7 @@
           ],
           "documents": [
             {
-              "id": "8.0",
+              "id": "8",
               "documentType": "contractSigned",
               "title": "Signed Contract",
               "description": "The Signed Contract for Cycle Path Construction",
@@ -248,11 +248,11 @@
           },
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -278,7 +278,7 @@
           ],
           "documents": [
             {
-              "id": "7.0",
+              "id": "7",
               "documentType": "awardNotice",
               "title": "Award notice",
               "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
@@ -309,11 +309,11 @@
           "dateSigned": "2010-06-10T14:23:12Z",
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -388,7 +388,7 @@
             ],
             "documents": [
               {
-                "id": "9.0",
+                "id": "9",
                 "documentType": "physicalProgressReport",
                 "title": "Progress report",
                 "description": "Physical progress report for cycle path construction",
@@ -467,11 +467,11 @@
           },
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -497,7 +497,7 @@
           ],
           "documents": [
             {
-              "id": "7.0",
+              "id": "7",
               "documentType": "awardNotice",
               "title": "Award notice",
               "description": "Award of contract to build new cycle lanes in the centre of town to AnyCorp Ltd.",
@@ -528,11 +528,11 @@
           "dateSigned": "2010-06-10T14:23:12Z",
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Cycle lane improvements",
               "classification": {
                 "scheme": "CPV",
-                "id": "45233130.0",
+                "id": "45233130",
                 "description": "Construction work for highways",
                 "uri": "http://cpv.data.ac.uk/code-45233130"
               },
@@ -676,7 +676,7 @@
             ],
             "documents": [
               {
-                "id": "9.0",
+                "id": "9",
                 "documentType": "physicalProgressReport",
                 "title": "Progress report",
                 "description": "Physical progress report for cycle path construction",
@@ -686,7 +686,7 @@
                 "language": "en"
               },
               {
-                "id": "10.0",
+                "id": "10",
                 "documentType": "physicalProgressReport",
                 "title": "Final report",
                 "description": "Physical progress report on completion of cycle path construction.",
