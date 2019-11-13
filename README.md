@@ -41,43 +41,47 @@ The following extract illustrates these properties in use within the `contract/i
 
 ```json
 {
-      "ocid": "ocds-213czf-000-00001",
-      "id": "ocds-213czf-000-00001-07-close",
-      "date": "2012-01-10T09:30:00Z",
-      "initiationType": "tender",
-      "tag": [
-        "implementation"
-      ],
-      "parties": ["..."],
-      "buyer": {
-        "id": "GB-LAC-E09000003"
+  "ocid": "ocds-213czf-000-00001",
+  "id": "ocds-213czf-000-00001-07-close",
+  "date": "2012-01-10T09:30:00Z",
+  "initiationType": "tender",
+  "tag": [
+    "implementation"
+  ],
+  "parties": [
+    "..."
+  ],
+  "buyer": {
+    "id": "GB-LAC-E09000003"
+  },
+  "awards": [
+    "..."
+  ],
+  "contracts": [
+    {
+      "id": "ocds-213czf-000-00001-contract-01",
+      "awardID": "ocds-213czf-000-00001-award-01",
+      "title": "Contract to build new cycle lanes in the centre of town.",
+      "period": {
+        "startDate": "2010-07-01T00:00:00Z",
+        "endDate": "2012-01-01T23:59:00Z",
+        "maxExtentDate": "2012-01-31T23:59:00Z"
       },
-      "awards": ["..."],
-      "contracts": [
-        {
-          "id": "ocds-213czf-000-00001-contract-01",
-          "awardID": "ocds-213czf-000-00001-award-01",
-          "title": "Contract to build new cycle lanes in the centre of town.",
-          "period": {
-            "startDate": "2010-07-01T00:00:00Z",
-            "endDate": "2012-01-01T23:59:00Z",
-            "maxExtentDate": "2012-01-31T23:59:00Z"
-          },
-          "value": {
-            "amount": 11500000,
-            "currency": "GBP"
-          },
-          "implementation": {
-            "endDate":"2012-02-01T00:00:00Z",
-            "endDateDetails":"Project was completed one day beyond the extended deadline.",
-            "finalValue": {
-              "amount":11800000,
-              "currency":"GBP"
-            },
-            "finalValueDetails":"The final payment to the supplier included a compensation payment triggered by the local authority failure to provide work permits on schedule."            
-          }
-        }
-      ]
+      "value": {
+        "amount": 11500000,
+        "currency": "GBP"
+      },
+      "implementation": {
+        "endDate": "2012-02-01T00:00:00Z",
+        "endDateDetails": "Project was completed one day beyond the extended deadline.",
+        "finalValue": {
+          "amount": 11800000,
+          "currency": "GBP"
+        },
+        "finalValueDetails": "The final payment to the supplier included a compensation payment triggered by the local authority failure to provide work permits on schedule."
+      }
+    }
+  ]
 }
 ```
 
