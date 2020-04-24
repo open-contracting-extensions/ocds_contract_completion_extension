@@ -17,7 +17,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "finalValue": {
           "$ref": "#/definitions/Value",
@@ -30,7 +31,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
       }
     }
