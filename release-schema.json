@@ -4,7 +4,7 @@
       "properties": {
         "endDate": {
           "title": "End date",
-          "description": "The date when contract implementation ended. This must only be provided when contract implementation is complete. Where `implementation/endDate` varies from the anticipated `contract/period/endDate` an explanation of the variance should be provided in `implementation/endDateDetails`.",
+          "description": "The actual date when contract implementation ended. Where `implementation/endDate` varies from the anticipated `contract/period/endDate` an explanation of the variance should be provided in `implementation/endDateDetails`.",
           "format": "date-time",
           "type": [
             "string",
@@ -23,7 +23,7 @@
         "finalValue": {
           "$ref": "#/definitions/Value",
           "title": "Final value",
-          "description": "The total value of all payments for a completed contract. This should only be provided when the final payment has been recorded. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contract/value/amount` an explanation of the variance should be provided in `finalValueDetails`."
+          "description": "The actual total value of all payments for a completed contract. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contract/value/amount` an explanation of the variance should be provided in `finalValueDetails`."
         },
         "finalValueDetails": {
           "title": "Final  value details",

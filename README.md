@@ -8,11 +8,11 @@ This extension introduces four fields that can be used at the end of a contracti
 
 The fields introduced by this extension are:
 
-* **`implementation.endDate`** - The date when contract implementation ended. This should only be provided when contract implementation is complete. Where `implementation.endDate` varies from the anticipated `contracts.period.endDate` an explanation of the variance should be provided in `implementation.endDateDetails`.
+* **`implementation.endDate`** - The actual date when contract implementation ended. Where `implementation.endDate` varies from the anticipated `contracts.period.endDate` an explanation of the variance should be provided in `implementation.endDateDetails`.
 
 * **`implementation.endDateDetails`** - Details related to the endDate. This may be a justification for the contract's completion date being different than in the original contract.
 
-* **`implementation.finalValue`** - The total value of all payments for a completed contract. This should only be provided when the final payment has been recorded. If `implementation.transactions` are used for this contract, this field should equal the sum of the `transactions.value.amount` fields. Where `finalValue.amount` varies from `contracts.value.amount` an explanation of the variance should be provided in `finalValueDetails`.
+* **`implementation.finalValue`** - The actual total value of all payments for a completed contract. If `implementation.transactions` are used for this contract, this field should equal the sum of the `transactions.value.amount` fields. Where `finalValue.amount` varies from `contracts.value.amount` an explanation of the variance should be provided in `finalValueDetails`.
 
 * **`implementation.finalValueDetails`** - Details related to the final value. This may be a justification for the completed contract's value being different than in the original contract.
 
