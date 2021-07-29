@@ -611,7 +611,7 @@
           },
           "numberOfTenderers": 2,
           "procurementMethod": "open",
-          "procurementMethodDetails": "In open procedures, any interested economic operator may submit a tender in response to a contract notice. ",
+          "procurementMethodDetails": "In open procedures, any interested economic operator may submit a bid in response to a contract notice. ",
           "procurementMethodRationale": "An open competitive tender is required by EU Rules",
           "procuringEntity": {
             "id": "GB-LAC-E09000003",
@@ -812,7 +812,7 @@
               "currency": "GBP"
             },
             "procurementMethod": "open",
-            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a tender in response to a contract notice. ",
+            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a bid in response to a contract notice. ",
             "procurementMethodRationale": "An open competitive tender is required by EU Rules",
             "procuringEntity": {
               "id": "GB-LAC-E09000003",
@@ -939,7 +939,7 @@
               "currency": "GBP"
             },
             "procurementMethod": "open",
-            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a tender in response to a contract notice. ",
+            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a bid in response to a contract notice. ",
             "procurementMethodRationale": "An open competitive tender is required by EU Rules",
             "procuringEntity": {
               "id": "GB-LAC-E09000003",
@@ -1091,7 +1091,7 @@
               "currency": "GBP"
             },
             "procurementMethod": "open",
-            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a tender in response to a contract notice. ",
+            "procurementMethodDetails": "In open procedures, any interested economic operator may submit a bid in response to a contract notice. ",
             "procurementMethodRationale": "An open competitive tender is required by EU Rules",
             "procuringEntity": {
               "id": "GB-LAC-E09000003",
@@ -5658,7 +5658,7 @@
               "releaseTag": [
                 "planning"
               ],
-              "value": "In open procedures, any interested economic operator may submit a tender in response to a contract notice. "
+              "value": "In open procedures, any interested economic operator may submit a bid in response to a contract notice. "
             }
           ],
           "procurementMethodRationale": [
