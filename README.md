@@ -4,18 +4,6 @@ The Open Contracting Data Standard can be used to provide information on all sta
 
 This extension introduces four fields that can be used at the end of a contracting process to provide details of the final date and value of the contract, and, where there is variation, to provide a justification of this.
 
-## Additional fields
-
-The fields introduced by this extension are:
-
-* **`implementation.endDate`** - The actual date when contract implementation ended. Where `implementation.endDate` varies from the anticipated `contracts.period.endDate` an explanation of the variance should be provided in `implementation.endDateDetails`.
-
-* **`implementation.endDateDetails`** - Details related to the endDate. This may be a justification for the contract's completion date being different than in the original contract.
-
-* **`implementation.finalValue`** - The actual total value of all payments for a completed contract. If `implementation.transactions` are used for this contract, this field should equal the sum of the `transactions.value.amount` fields. Where `finalValue.amount` varies from `contracts.value.amount` an explanation of the variance should be provided in `finalValueDetails`.
-
-* **`implementation.finalValueDetails`** - Details related to the final value. This may be a justification for the completed contract's value being different than in the original contract.
-
 ## Using existing OCDS fields within a Contracts Register
 
 OCDS contains many existing fields that can be used as part of a Contracts Register. These are documented [in the schema reference](http://standard.open-contracting.org/latest/en/schema/reference/). This extension does not modify any of these fields. However, the following list is provided for convenience of those considering the design of a contracts register:
@@ -31,13 +19,9 @@ OCDS contains many existing fields that can be used as part of a Contracts Regis
 
 Milestones may have a `status` of 'scheduled', 'met', 'notMet' or 'partiallyMet'. By providing at least one milestone for a contract, and then ensuring `milestones.status` is updated when `implementation.endDate` you can indicate whether a contract ended with successful delivery of all milestones and deliverables.
 
-## JSON and CSV serializations
-
-In some cases, it may be possible to design a simple contracts register using the [flat CSV serialization of OCDS](http://standard.open-contracting.org/latest/en/implementation/serialization/#csv).
-
 ## Example
 
-The following extract illustrates these properties in use within the `contracts.implementation` block. Note the difference between the contract `period` and `value` (as agreed in the contract, or amended contract), and the implementation `finalValue` and `endDate`, along with the explanation provided of this variance.
+Note the difference between the contract `period` and `value` (as agreed in the contract, or amended contract), and the implementation `finalValue` and `endDate`, along with the explanation provided of this variance.
 
 ```json
 {
@@ -69,15 +53,15 @@ The following extract illustrates these properties in use within the `contracts.
 }
 ```
 
-The example folder contains a full worked example with:
+The [examples](https://github.com/open-contracting-extensions/ocds_contract_completion_extension/tree/master/examples) directory contains a full worked example with:
 
 * A release that provides details of a contract;
 * A release that includes an amendment to the contract to increase the total value, as well as initial payment transactions;
 * A release that contains a confirmed end date, final value, and the explanation of variation in these.
 
-This is also supplied in record form, and with a simplified flat serialization. The record can be viewed with [OCDS Show](https://open-contracting.github.io/ocds-show/) to demonstrate how the OCDS releases and records model captures change over time.
+This is also provided as an OCDS record and as an Excel file.
 
-In the spreadsheet serialization it is possible to see three releases describing the three key moments from the same contracting process.
+In the Excel file, it is possible to see three releases describing the three key moments from the same contracting process.
 
 ## Issues
 
