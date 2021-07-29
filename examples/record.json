@@ -454,7 +454,7 @@
             {
               "amendsReleaseID": "ocds-213czf-000-00001-02-tender",
               "date": "2010-03-20T09:45:00Z",
-              "description": "The closing date for tender submissions has been extended to 2017-04-08",
+              "description": "The closing date for bid submissions has been extended to 2017-04-08",
               "id": "1",
               "rationale": "The tender period has been extended in accordance with council guidelines",
               "releaseID": "ocds-213czf-000-00001-03-tenderAmendment"
@@ -1008,7 +1008,7 @@
               {
                 "amendsReleaseID": "ocds-213czf-000-00001-02-tender",
                 "date": "2010-03-20T09:45:00Z",
-                "description": "The closing date for tender submissions has been extended to 2017-04-08",
+                "description": "The closing date for bid submissions has been extended to 2017-04-08",
                 "id": "1",
                 "rationale": "The tender period has been extended in accordance with council guidelines",
                 "releaseID": "ocds-213czf-000-00001-03-tenderAmendment"
@@ -4620,7 +4620,7 @@
                   "releaseTag": [
                     "tenderAmendment"
                   ],
-                  "value": "The closing date for tender submissions has been extended to 2017-04-08"
+                  "value": "The closing date for bid submissions has been extended to 2017-04-08"
                 }
               ],
               "id": "1",
