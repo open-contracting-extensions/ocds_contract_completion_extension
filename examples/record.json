@@ -512,7 +512,7 @@
             },
             {
               "datePublished": "2010-03-20T11:30:15Z",
-              "description": "Responses to enquiries asked by interested parties.",
+              "description": "Responses to enquiries asked by potential suppliers.",
               "documentType": "clarifications",
               "format": "text/html",
               "id": "6",
@@ -532,7 +532,7 @@
             },
             {
               "datePublished": "2010-03-20T11:30:15Z",
-              "description": "Responses to enquiries asked by interested parties.",
+              "description": "Responses to enquiries asked by potential suppliers.",
               "documentType": "enquiryResponses",
               "format": "text/html",
               "id": "0006",
@@ -1039,7 +1039,7 @@
               },
               {
                 "datePublished": "2010-03-20T11:30:15Z",
-                "description": "Responses to enquiries asked by interested parties.",
+                "description": "Responses to enquiries asked by potential suppliers.",
                 "documentType": "clarifications",
                 "format": "text/html",
                 "id": "6",
@@ -1188,7 +1188,7 @@
               },
               {
                 "datePublished": "2010-03-20T11:30:15Z",
-                "description": "Responses to enquiries asked by interested parties.",
+                "description": "Responses to enquiries asked by potential suppliers.",
                 "documentType": "enquiryResponses",
                 "format": "text/html",
                 "id": "0006",
@@ -5051,7 +5051,7 @@
                   "releaseTag": [
                     "tenderAmendment"
                   ],
-                  "value": "Responses to enquiries asked by interested parties."
+                  "value": "Responses to enquiries asked by potential suppliers."
                 }
               ],
               "documentType": [
@@ -5197,7 +5197,7 @@
                   "releaseTag": [
                     "tenderUpdate"
                   ],
-                  "value": "Responses to enquiries asked by interested parties."
+                  "value": "Responses to enquiries asked by potential suppliers."
                 }
               ],
               "documentType": [
