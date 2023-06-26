@@ -21,9 +21,9 @@
           "minLength": 1
         },
         "finalValue": {
-          "$ref": "#/definitions/Value",
           "title": "Final value",
-          "description": "The actual total value of all payments for a completed contract. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contract/value/amount` an explanation of the variance should be provided in `finalValueDetails`."
+          "description": "The actual total value of all payments for a completed contract. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contract/value/amount` an explanation of the variance should be provided in `finalValueDetails`.",
+          "$ref": "#/definitions/Value"
         },
         "finalValueDetails": {
           "title": "Final  value details",
