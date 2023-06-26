@@ -5,11 +5,11 @@
         "endDate": {
           "title": "End date",
           "description": "The actual date when contract implementation ended. Where `implementation/endDate` varies from the anticipated `contract/period/endDate` an explanation of the variance should be provided in `implementation/endDateDetails`.",
-          "format": "date-time",
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "format": "date-time"
         },
         "endDateDetails": {
           "title": "End date details",
